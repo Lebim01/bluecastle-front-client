@@ -1,0 +1,3 @@
+{
+  "/signup/[userid]/[position]": "pages/signup/[userid]/[position].js"
+}

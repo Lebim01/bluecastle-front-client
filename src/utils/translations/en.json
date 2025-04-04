@@ -1,0 +1,321 @@
+{
+  "login": "Login",
+  "logout": "Logout",
+  "forgot_password": "Forgot password?",
+  "errors_invalid_credentials": "Incorrect username and/or password",
+  "errors_confirm_email": "Email does not match",
+  "errors_confirm_password": "Password does not match",
+  "errors_network": "Something went wrong, try later",
+  "errors_user_exists": "User already exists",
+  "logged_as": "Logged as:",
+  "menu": {
+    "dashboard": "Dashboard",
+    "my_team": "My team",
+    "unilevel": "Unilevel",
+    "binary": "Binary",
+    "academy": "Academy",
+    "live_sessions": "Live Sessions",
+    "past_sessions": "Past Sessions",
+    "investments": "Portfolio",
+    "invest": "Add value",
+    "my_investments": "My Portafolio",
+    "buys": "Memberships",
+    "buy_membership": "Buy a Membership",
+    "my_buys": "My Purchases",
+    "help": "Help",
+    "withdrawals": "Withdrawals",
+    "signals": "Signals",
+    "tools": "Tools",
+    "profile": "Profile",
+    "exit": "Exit",
+    "ranks": "Ranks"
+  },
+  "dashboard_view": {
+    "banner_membership": {
+      "title": "You have your membership",
+      "description": "You already have your membership! You can go to your academy to browse the courses!"
+    },
+    "banner_nft": {
+      "title": "You have an NFT",
+      "get_button": "Reclaim",
+      "connnect_button": "Connect wallet",
+      "need_install_metamask": "You need install metamask",
+      "need_connect": "Connect to your wallet first",
+      "wallet_denied": "Wallet denied",
+      "success_get": "Successfully obtained"
+    },
+    "banner_promotional": {
+      "promotional_bonus": "PROMOTIONAL BONUS",
+      "dubai_travel": "DUBAI TRAVEL",
+      "requirement_rank": "Requirement Rank",
+      "progress": "Progress"
+    },
+    "binance_bot": {
+      "get_bot": "Get your bot",
+      "get_button": "Connect bot"
+    },
+    "join_to_our_channel": "Join to our channel",
+    "banner_upgrade": {
+      "membership": "Membership",
+      "upgrade_your_membership": "Upgrade your membership to",
+      "upgrade": "Upgrade"
+    },
+    "banner_referral": {
+      "referral_link": "Referral link",
+      "left": "LEFT",
+      "right": "RIGHT",
+      "choose_the_placement": "Choose the placement",
+      "we_will": "We will place the guest who registers on your",
+      "side": "side",
+      "copy": "COPY"
+    },
+    "portfolio_banner": {
+      "portfolio": "Portfolio",
+      "add_value_up_to": "Add value up to"
+    },
+    "compound_interest_banner": {
+      "compound_interest": "Compound Interest",
+      "you_can_now": "You can now activate compound.",
+      "activate": "Activate",
+      "you_already_have": "You already have compound actived."
+    },
+    "multiplier_banner": {
+      "multiplier": "Multiplier",
+      "up_to": "Up to",
+      "portfolio": "Portfolio",
+      "membership": "Membership"
+    },
+    "rank_banner": {
+      "current_rank": "Current Rank",
+      "classified": "CLASSIFIED",
+      "rank": "RANK",
+      "left_points": "Left Points",
+      "right_points": "Right Points",
+      "shorter_leg": "Shorter Leg",
+      "next_rank": "Next Rank"
+    }
+  },
+  "invest_view": {
+    "amount": "Amount",
+    "amount_deposit": "Amount to deposit",
+    "generate_qr": "Generate QR",
+    "min_amount": "Min amount is 100 USD",
+    "accept_terms": "You should accept the terms and conditions"
+  },
+  "commissions": {
+    "commissions": "Commissions",
+    "ewallet": "Ewallet"
+  },
+  "cancel": "Cancel",
+  "accept_terms": "I agree to the terms and conditions",
+  "my_team": {
+    "me": {
+      "direct": "Direct",
+      "name": "Name",
+      "email": "Email"
+    },
+    "binary": {
+      "left": "Left",
+      "right": "Right",
+      "pack": "Pack",
+      "home": "Home"
+    }
+  },
+  "portfolio_view": {
+    "add_value": {
+      "adding_value_generates_up_to": "Adding value generates up to 8% points monthly.",
+      "you_can_add_value": "You can add value up to 10x the value of your membership.",
+      "current": "Current",
+      "remaining": "Remaining"
+    },
+    "my_portfolio": {
+      "deposits": "Deposits",
+      "generated_returns": "Generated Returns",
+      "available_returns": "Available Returns",
+      "activating_compound": "Activate compound interest, it pays you 7.6% compound interest each month",
+      "your_compound_interest": "Your compound interest is already active!",
+      "deposit_history": "Deposit History",
+      "deposit_date": "Deposit date",
+      "deposited_amount": "Deposited amount",
+      "next_return": "Next return",
+      "generated": "Generated",
+      "withdrawn": "Withdrawn",
+      "availables": "Availables",
+      "details": "Details"
+    }
+  },
+  "purchases": {
+    "membership": {
+      "basic": "Basic",
+      "medium": "Medium",
+      "advanced": "Advanced",
+      "pro": "Pro",
+      "benefits": {
+        "crypto_course": "Crypto Course",
+        "tokenomic_course": "Tokenomics Course",
+        "binance_trading_bot": "Binance Trading Bot",
+        "trading_signals": "Trading Signals",
+        "live_classes": "Live Classes",
+        "generates_up_to_3": "Generates up to 3x points",
+        "adds_value_up_to_10": "Adds value up to 10x your membership"
+      },
+      "availability": "Already have this membership",
+      "not_available": "Not Available"
+    },
+    "my_memberships": {
+      "purchases": "Purchases",
+      "item": "Item",
+      "date": "Date",
+      "status": "Status",
+      "payment_method": "Payment Method"
+    }
+  },
+  "comissions_view": {
+    "direct": "Direct",
+    "binary": "Binary",
+    "reward": "Reward",
+    "rank": "Rank",
+    "amount": "Amount",
+    "description": "Description",
+    "date": "Date"
+  },
+  "witdhdrawals_view": {
+    "available_balance": "Available balance",
+    "pending_balance": "Pending to approve",
+    "status": "Status",
+    "amount_to_withdraw": "Amount to withdraw",
+    "withdraw": "Withdraw",
+    "withdrawal_history": "Withdrawal history",
+    "amount": "Amount",
+    "date": "Date",
+    "tabs": {
+      "direct": "Direct withdrawal",
+      "ranks": "Rank withdrawal",
+      "binary": "Binary withdrawal",
+      "deposits": "Investment withdrawal"
+    }
+  },
+  "last_signals": "Last signals",
+  "looks_like": "Looks like you don't have signals yet",
+  "profile_view": {
+    "profile": "Profile",
+    "password": "Password",
+    "wallet": "Wallet",
+    "personal_data": "Personal data",
+    "name": "Name",
+    "email": "Email",
+    "social_networks": "Social Networks",
+    "address": "Address",
+    "country": "Country",
+    "state": "State",
+    "city": "City",
+    "save": "Save",
+    "actual_password": "Current password",
+    "new_password": "New password",
+    "confirm_new_password": "Confirm new password",
+    "verification_code": "Verification code",
+    "confirm_code": "Confirm code",
+    "update_password": "Update Password",
+    "wallet_address": "Wallet Address",
+    "request_verification_code": "Request Verification Code",
+    "save_information": "Save Information",
+    "loading": "Loading"
+  },
+  "errors": {
+    "name_is_required": "Name is required",
+    "whatsapp_number_required": "The WhatsApp number is required",
+    "country_required": "The country is required",
+    "state_required": "The state is required",
+    "city_required": "The city is required",
+    "profile_updated_successfully": "Profile updated successfully",
+    "profile_update_failed": "Failed to update profile",
+    "current_password_required": "The current password is required",
+    "new_password_required": "The new password is required",
+    "password_min_length": "The password must be at least 8 characters long",
+    "passwords_do_not_match": "Passwords do not match",
+    "incorrect_verification_code": "The verification code is incorrect",
+    "wallet_address_required": "The wallet address is required"
+  },
+  "rank_view": {
+    "menu_rank": "Ranks",
+    "your_actual_score": "Your actual score",
+    "ranks": {
+      "emprendedor": "Entrepreneur",
+      "constructor": "Builder",
+      "director": "Director",
+      "director_premier": "Premier Director",
+      "embajador": "Ambassador",
+      "diamond": "Diamond",
+      "ejecutive_diamond": "Executive Diamond",
+      "premier_diamond": "Premier Diamond",
+      "black_diamond": "Black Diamond",
+      "crown_diamond": "Crown Diamond",
+      "royal_diamond": "Royal Diamond"
+    }
+  },
+  "landing": {
+    "sections": {
+      "discover_your_potential": "Discover your potential",
+      "join_dota": "Join DOTA",
+      "login_to_my_account": "Login to my account",
+      "dota_crypto_academy": "DOTA Crypto Academy",
+      "our_packages": "Our packages",
+      "learn_more_about_our_academy": "Learn more about our Academy at DOTA",
+      "get": "Get",
+      "menu": {
+        "home": "Home",
+        "products": "Products",
+        "about_us": "About us",
+        "sign_up": "Sign up"
+      }
+    },
+    "about_us": {
+      "title": "Learn more about our Academy at DOTA",
+      "welcome": "Welcome to DOTA, your trusted academy for learning cryptocurrency trading, from the basics to mastery.",
+      "experience": "At DOTA, we take pride in offering an exceptional educational experience designed specifically for those passionate about the exciting world of cryptocurrencies and trading.",
+      "guidance": "At DOTA, we understand that the cryptocurrency universe can seem intimidating to many. That is why we have assembled a team of trading and cryptocurrency experts who are here to guide you every step of the way, regardless of your prior experience. Our instructors not only have deep market knowledge but also a passion for sharing their expertise and helping you achieve your financial goals.",
+      "courses": "Our courses are carefully designed to cover all aspects of cryptocurrency trading, from fundamental basics to the most advanced strategies. Whether you are taking your first steps into trading or looking to refine your existing skills, at DOTA you will find courses tailored to your needs and goals.",
+      "highlight": "What makes us stand out? At DOTA, we not only strive to offer high-quality content, but we also aim to create a vibrant and supportive community. Our students have access to discussion forums, live Q&A sessions, and exclusive events where they can connect with other trading enthusiasts and share ideas and strategies.",
+      "evolution": "Furthermore, we understand that the cryptocurrency market is constantly evolving. That is why we are committed to keeping our courses updated with the latest trends and market developments, so you can make informed decisions and stay ahead.",
+      "goal": "At DOTA, our goal is to provide you with the tools and knowledge necessary to become a successful and confident trader in the exciting world of cryptocurrencies. Join us today and start your journey towards financial success with DOTA.",
+      "community": "Welcome to the DOTA community, where learning and success go hand in hand!"
+    }
+  },
+  "faq": {
+    "open_tickets": "Open tickets",
+    "open_new_ticket": "Open new ticket",
+    "title": "Title",
+    "issue_title": "Issue title",
+    "description": "Description",
+    "issue_description": "Issue description",
+    "change_email": "How can I change my email?",
+    "missing_commission": "Why hasn't my commission arrived?",
+    "change_info": "How can I change my information?",
+    "wrong_commission_amount": "My commission amount is higher or lower (it's incorrect)",
+    "purchase_not_approved": "My purchase is not approved, but I already made the payment",
+    "purchase_deleted": "Purchase deleted by mistake",
+    "unrecognized_charge": "An unrecognized charge was made"
+  },
+  "countries": "Countries",
+  "sign_up": {
+    "signup_title": "Sign up. It's easy and fast",
+    "referred_by": "Referred by",
+    "full_name": "Full Name",
+    "username": "Username",
+    "email": "Email",
+    "confirm_email": "Confirm Email",
+    "password": "Password",
+    "confirm_password": "Confirm your password",
+    "country": "Country",
+    "code": "Code",
+    "phone": "Phone",
+    "accept_terms": "I accept the",
+    "terms": "Terms",
+    "privacy_policy": "Privacy Policy",
+    "register": "Sign up",
+    "username_no_spaces": "Username cannot contain spaces",
+    "select_country": "Select a country from the list",
+    "and": "&",
+    "user_registered_success": "User successfully registered"
+  }
+}
