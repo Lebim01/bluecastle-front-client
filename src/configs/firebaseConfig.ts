@@ -5,12 +5,12 @@ import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAzeXkQmYLdoOkgfgaSsyP0hCMECKEpXd8",
-  authDomain: "dota-dd5dd.firebaseapp.com",
-  projectId: "dota-dd5dd",
-  storageBucket: "dota-dd5dd.firebasestorage.app",
-  messagingSenderId: "1039762081728",
-  appId: "1:1039762081728:web:9fa3cc4bbe01afb97b2a25",
+  apiKey: "AIzaSyCGiMDjo-lEqDt9Fxto23ch6twmz6JeycA",
+  authDomain: "bluecastle-1fc10.firebaseapp.com",
+  projectId: "bluecastle-1fc10",
+  storageBucket: "bluecastle-1fc10.firebasestorage.app",
+  messagingSenderId: "127380394265",
+  appId: "1:127380394265:web:b119186951979a76c7f588"
 };
 
 // Initialize Firebase
