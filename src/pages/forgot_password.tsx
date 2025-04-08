@@ -73,7 +73,7 @@ const ForgotPassword = () => {
   return (
     <div className="flex h-full w-full items-center justify-center min-h-screen">
       <div className="flex w-full max-w-sm flex-col gap-8 rounded-large px-16 pb-20 pt-16  border">
-        <img src="/img/logo-inverse.svg" alt="" />
+        <img src="/img/logo-inverse.png" alt="" />
 
         {showOTP ? (
           <Form

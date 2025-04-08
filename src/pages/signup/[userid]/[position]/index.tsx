@@ -153,7 +153,7 @@ export default function Component(props: Props) {
       <div className="flex gap-4 items-center">
         <div className="flex w-full max-w-lg flex-col gap-4 itex-center justify-center rounded-large px-8 pb-10 pt-6">
           <div className="flex flex-col gap-4 items-center">
-            <Image src="/img/logo-inverse.svg" width={100} height={80} alt="" />
+            <Image src="/img/logo-inverse.png" width={100} height={80} alt="" />
             <p className="pb-4 text-left text-xl font-semibold">
               {i18n.t('sign_up.signup_title')}
             </p>

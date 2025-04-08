@@ -7,7 +7,6 @@ export default function Home() {
   return (
     <MainLayout>
       <main className="flex flex-col gap-8 items-center sm:items-start">
-        <TradingViewWidget />
         <Dashboard />
       </main>
     </MainLayout>

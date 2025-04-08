@@ -75,6 +75,23 @@ body {
   }
 }
 
+.clip-overlay {
+  clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 100%,
+    0% 100%,
+    0% 0%,
+    /* recorte interno (rectángulo en el centro) */
+    50% 20%,
+    72% 20%,
+    72% 80%,
+    28% 80%,
+    28% 20%,
+    50% 20%
+  );
+}
+
 @layer components {
   .card {
     @apply bg-card rounded-card p-4;

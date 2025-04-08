@@ -15,59 +15,19 @@ import MapJson from "./components/MapJson";
 import CountriesList from "./components/CountriesList";
 import BinanceBot from "./components/BinanceBot";
 import GetNftCard from "./components/GetNftCard";
+import { CardSpotlight } from "@/components/ui/card-spotlight";
+import { IoWallet } from "react-icons/io5";
+import Indicators from "@/components/ui/indicators";
 
 const Dashboard = () => {
   const i18n = useTranslation();
   return (
     <div className="flex justify-center w-full">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <BinanceBot />
-
-        <CardBanner img="/img/buy-membership.png" position="bottom">
-          <div className="bg-gray-900/70 flex flex-col gap-2 p-1">
-            <span className="text-3xl font-bold">
-              {i18n.t("dashboard_view.banner_membership.title")}
-            </span>
-            <span className="text-xl font-black text-balance">
-              {i18n.t("dashboard_view.banner_membership.description")}
-            </span>
-          </div>
-        </CardBanner>
-
-        <GetNftCard />
-
-        <PromoDubai i18n={i18n} />
-
-        <PromoRolex i18n={i18n} />
-
-        <Upgrade i18n={i18n} />
-
-        <Links i18n={i18n} />
-
-        <InvestmentCard i18n={i18n} />
-
-        <ActiveCompoundInterest i18n={i18n} />
-
-        <MultiplierPortafolio i18n={i18n} />
-
-        <MultiplierMembership i18n={i18n} />
-
-        {/* Este sera el marcador donde esta dota master */}
-        <RankDashboard i18n={i18n} />
-
-        {/* Este sera el marcador de la carrera */}
-        <NextRank i18n={i18n} />
-        <CardDota classNames="col-span-full grid grid-cols-12 gap-4">
-          <div className="col-span-full md:col-span-6 lg:col-span-4">
-            <CountriesList />
-          </div>
-          <div className="col-span-full md:col-span-6 lg:col-span-8">
-            <MapJson />
-          </div>
-        </CardDota>
-        {/*<CardDota classNames="col-span-full h-[400px]">
-          <Map />
-        </CardDota>*/}
+      <div className="grid grid-cols-1 w-full md:grid-cols-3 gap-4">
+     
+        <Indicators icon={<IoWallet />} color="red" background="bg-red-200" title="Total Balance" value={'$100,000'} />
+        <Indicators icon={<IoWallet />} color="blue" background="bg-blue-200" title="Total Balance" value={'$100,000'} />
+        <Indicators icon={<IoWallet />} color="orange" background="bg-orange-200" title="Total Balance" value={'$100,000'} />
       </div>
     </div>
   );

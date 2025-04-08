@@ -614,7 +614,7 @@ const LoginPage = ()=>{
             className: "flex w-full max-w-sm flex-col gap-8 rounded-large px-16 pb-20 pt-16  border",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                    src: "/img/logo-inverse.svg",
+                    src: "/img/logo-inverse.png",
                     alt: ""
                 }, void 0, false, {
                     fileName: "[project]/src/pages/login.tsx",

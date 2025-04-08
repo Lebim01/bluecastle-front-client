@@ -12,9 +12,9 @@
     "static/chunks/node_modules_react-icons_fa6_index_mjs_991a21._.js",
     "static/chunks/node_modules_react-icons_lib_75a63d._.js",
     "static/chunks/node_modules_framer-motion_dist_es_0af18d._.js",
-    "static/chunks/node_modules_56190b._.js",
+    "static/chunks/node_modules_022ca1._.js",
     "static/chunks/[root of the server]__aec1d7._.js",
-    "static/chunks/node_modules_@heroui_dom-animation_dist_index_mjs_8b8261._.js"
+    "static/chunks/node_modules_@heroui_dom-animation_dist_index_mjs_37fe7a._.js"
   ],
   "source": "entry"
 });

@@ -36,7 +36,7 @@ export default {
       themes: {
         dark: {
           colors: {
-            primary: "#9992FE",
+            primary: "#22356b",
             secondary: "#8f43be",
           },
         },

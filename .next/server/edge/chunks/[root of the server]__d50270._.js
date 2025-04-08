@@ -35,16 +35,19 @@ async function middleware(req) {
         req,
         secret: process.env.NEXTAUTH_SECRET
     });
-    if (token) {
+    if (!token) {
         if (req.nextUrl.pathname == "/login") {
+            // await authMe(token.accessToken);
             return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$esm$2f$server$2f$web$2f$spec$2d$extension$2f$response$2e$js__$5b$middleware$5d$__$28$ecmascript$29$__["NextResponse"].redirect(new URL("/", req.url));
         }
     } else {
         const isPublicRoute = req.nextUrl.pathname.startsWith("/img") || req.nextUrl.pathname.startsWith("/public") || req.nextUrl.pathname.startsWith("/forgot_password");
         const isLogin = req.nextUrl.pathname == "/login";
         const isSignup = req.nextUrl.pathname.startsWith("/signup/");
-        if (!isPublicRoute && !isSignup && !isLogin) {
-            return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$esm$2f$server$2f$web$2f$spec$2d$extension$2f$response$2e$js__$5b$middleware$5d$__$28$ecmascript$29$__["NextResponse"].redirect(new URL("/login", req.url));
+        const isLanding = req.nextUrl.pathname.startsWith("/landing");
+        if (!isPublicRoute && !isSignup && !isLogin && !isLanding) {
+            if (req.nextUrl.pathname == "/") return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$esm$2f$server$2f$web$2f$spec$2d$extension$2f$response$2e$js__$5b$middleware$5d$__$28$ecmascript$29$__["NextResponse"].redirect(new URL("/landing", req.url));
+            else return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$esm$2f$server$2f$web$2f$spec$2d$extension$2f$response$2e$js__$5b$middleware$5d$__$28$ecmascript$29$__["NextResponse"].redirect(new URL("/login", req.url));
         }
     }
 }

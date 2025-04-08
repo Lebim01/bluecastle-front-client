@@ -19,7 +19,7 @@ import LanguageDropdown from "./LanguageDropdown";
 export const AcmeLogo = () => {
   return (
     <Link href="/">
-      <Image src="/img/logo-inverse.svg" height={30} width={100} alt="logo" />
+      <Image src="/img/logo-inverse.png" height={30} width={100} alt="logo" />
     </Link>
   );
 };

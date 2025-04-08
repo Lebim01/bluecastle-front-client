@@ -1418,8 +1418,8 @@ var __turbopack_async_dependencies__ = __turbopack_handle_async_dependencies__([
 ]);
 ([__TURBOPACK__imported__module__$5b$externals$5d2f$axios__$5b$external$5d$__$28$axios$2c$__esm_import$29$__] = __turbopack_async_dependencies__.then ? (await __turbopack_async_dependencies__)() : __turbopack_async_dependencies__);
 ;
-__TURBOPACK__imported__module__$5b$externals$5d2f$axios__$5b$external$5d$__$28$axios$2c$__esm_import$29$__["default"].defaults.baseURL = ("TURBOPACK compile-time value", "https://dota-api-1039762081728.us-central1.run.app");
-const BASE_URL = ("TURBOPACK compile-time value", "https://dota-api-1039762081728.us-central1.run.app");
+__TURBOPACK__imported__module__$5b$externals$5d2f$axios__$5b$external$5d$__$28$axios$2c$__esm_import$29$__["default"].defaults.baseURL = ("TURBOPACK compile-time value", "http://localhost:8080");
+const BASE_URL = ("TURBOPACK compile-time value", "http://localhost:8080");
 const axiosInstance = __TURBOPACK__imported__module__$5b$externals$5d2f$axios__$5b$external$5d$__$28$axios$2c$__esm_import$29$__["default"].create({
     baseURL: BASE_URL
 });
@@ -1817,7 +1817,7 @@ const useAxios = ({ url, postData, method = "get", defaultValue }, dependencies 
     const exec = async ()=>{
         setLoading(true);
         try {
-            const response = await (method == "get" ? __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$services$2f$index$2e$ts__$5b$ssr$5d$__$28$ecmascript$29$__["default"][method](`${("TURBOPACK compile-time value", "https://dota-api-1039762081728.us-central1.run.app")}/${url}`) : __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$services$2f$index$2e$ts__$5b$ssr$5d$__$28$ecmascript$29$__["default"][method](`${("TURBOPACK compile-time value", "https://dota-api-1039762081728.us-central1.run.app")}/${url}`, postData));
+            const response = await (method == "get" ? __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$services$2f$index$2e$ts__$5b$ssr$5d$__$28$ecmascript$29$__["default"][method](`${("TURBOPACK compile-time value", "http://localhost:8080")}/${url}`) : __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$services$2f$index$2e$ts__$5b$ssr$5d$__$28$ecmascript$29$__["default"][method](`${("TURBOPACK compile-time value", "http://localhost:8080")}/${url}`, postData));
             setData(response.data);
         } catch (err) {
             setData(null);

@@ -16,9 +16,9 @@ __turbopack_load_page_chunks__("/_error", [
   "static/chunks/node_modules_react-icons_lib_75a63d._.js",
   "static/chunks/node_modules_c91a60._.js",
   "static/chunks/node_modules_axios_lib_9a6fdf._.js",
-  "static/chunks/node_modules_4ef105._.js",
+  "static/chunks/node_modules_a5cba7._.js",
   "static/chunks/[root of the server]__dee0b0._.js",
-  "static/chunks/node_modules_@heroui_dom-animation_dist_index_mjs_ddd86a._.js",
+  "static/chunks/node_modules_@heroui_dom-animation_dist_index_mjs_3b6d33._.js",
   "static/chunks/src_pages__error_5771e1._.js",
-  "static/chunks/src_pages__error_cc80b4._.js"
+  "static/chunks/src_pages__error_9e780b._.js"
 ])
