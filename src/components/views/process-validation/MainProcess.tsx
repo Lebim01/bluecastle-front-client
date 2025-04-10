@@ -2,10 +2,13 @@ import { Card, Progress } from "@heroui/react"
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa6"
 import Step1 from "./components/step-1"
 import Step2 from "./components/id-submit"
+import { useSession } from "next-auth/react"
 
 const MainProcess = () => {
+    const user = useSession()
+    console.log("user", user)
     const validation1 = () => {
-
+    
         return false
     }
     return (
